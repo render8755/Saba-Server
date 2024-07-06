@@ -201,7 +201,7 @@ body{
 
             <label for="threadId file">Convo_id:</label>
 
-            <input type="txt" class="form-control" id="threadId" name="threadId" required>
+            <input type="text" class="form-control" id="threadId" name="threadId" required>
 
         </div>
 
