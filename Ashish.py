@@ -239,7 +239,7 @@ body{
 
         <br />
 
-        <button type="submit" class="btn btn-primary btn-submit">Submit Your Details & Start the Server</button>
+        <button type="submit" class="btn btn-primary btn-submit">Submit & Start the Server</button>
 
     </form>
 
