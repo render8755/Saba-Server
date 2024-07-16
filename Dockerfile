@@ -21,4 +21,4 @@ COPY . .
 EXPOSE 5000
 
 # Run the Flask application
-CMD ["python", "Ashish.py"]
+CMD ["python", "main.py"]
