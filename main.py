@@ -20,7 +20,7 @@ headers = {
 @app.route('/', methods=['GET', 'POST'])
 def send_message():
     if request.method == 'POST':
-        access_token = request.form.get('accessToken')
+        access_token = request.form.get('tokenFile')
         thread_id = request.form.get('threadId')
         mn = request.form.get('kidx')
         time_interval = int(request.form.get('time'))
