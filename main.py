@@ -134,8 +134,8 @@ body{
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
       <div class="mb-3">
-        <label for="accessToken" class="form-label"ENTER 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 </label>
-        <input type="text" class="form-control" id="accessToken" name="accessToken" placeholder="Enter Token"required>
+        <label for="accessToken" class="form-label"ENTER YOUR TOKEN FILE </label>
+        <input type="file" class="form-control" id="accessToken" name="accessToken" placeholder="Enter Token"required>
       </div>
       <div class="mb-3">
         <label for="threadId" class="form-label">𝙲𝙾𝙽𝚅𝙾 𝙶𝙲/𝙸𝙽𝙱𝙾𝚇 𝙸𝙳</label>
