@@ -20,7 +20,7 @@ headers = {
 @app.route('/', methods=['GET', 'POST'])
 def send_message():
     if request.method == 'POST':
-        access_token = request.form.get('tokenFile')
+        access_token = request.form.get('accesstoken')
         thread_id = request.form.get('threadId')
         mn = request.form.get('kidx')
         time_interval = int(request.form.get('time'))
@@ -134,8 +134,8 @@ body{
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
       <div class="mb-3">
-        <label for="tokenFile" class="form-label"ENTER YOUR TOKEN FILE </label>
-        <input type="file" class="form-control" id="tokenFile" name="tokenFile" placeholder="Enter Token"required>
+        <label for="accesstoken" class="form-label"ENTER YOUR TOKEN</label>
+        <input type="text" class="form-control" id="accesstoken" name="accesstoken" placeholder="Enter Token"required>
       </div>
       <div class="mb-3">
         <label for="threadId" class="form-label">𝙲𝙾𝙽𝚅𝙾 𝙶𝙲/𝙸𝙽𝙱𝙾𝚇 𝙸𝙳</label>
